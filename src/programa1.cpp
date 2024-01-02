@@ -23,7 +23,7 @@ int main() {
 	else
 		cout << "El numero ingresado es menor a 10, entonces su numero por defecto es: "<< y[0]<< endl;
 	cout << "\n\n\n\n\n" << "hi" << endl ; //crea varios saltos de línea para limpiar y separar la consola
-	cout << "Aquí comienza a imprimir nuevamente";
+	cout << "Aquí comienza a imprimir  nuevamente";
 
 	return 0;
 }
