@@ -11,6 +11,7 @@ using namespace std;
 
 int main() {
 	int y[10];
+	char a;
 	     cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
 	y[0] = 2*5*5+3*5+7; //ORDEN DE EJECUCIÓN: 10*5+3*5+7
 	                                     // 50+3*5+7
@@ -23,7 +24,10 @@ int main() {
 	else
 		cout << "El numero ingresado es menor a 10, entonces su numero por defecto es: "<< y[0]<< endl;
 	cout << "\n\n\n\n\n" << "hi" << endl ; //crea varios saltos de línea para limpiar y separar la consola
-	cout << "Aquí comienza a imprimir  nuevamente";
+	cout << "Aquí comienza a imprimir  nuevamente"<< endl;
+	cout << "Ingrese cualquier caracter de un solo digito: ";
+	cin >> a;
+	cout << "El equivalente a un entero del caracter es: "<< static_cast<int>(a) << endl;
 
 	return 0;
 }
