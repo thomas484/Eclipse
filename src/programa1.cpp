@@ -12,7 +12,7 @@ using namespace std;
 int main() {
 	int y[10];
 	     cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
-	y[0] = 2*5*5+3*5+7; //ORDEN DE EJECUCIÓN: 10*5+3*5+7
+	y[0] = 2*5*5+3*5+7+45+78; //ORDEN DE EJECUCIÓN: 10*5+3*5+7
 	                                     // 50+3*5+7
 	                                     // 50+15+7
 	                                     // 72
