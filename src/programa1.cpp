@@ -22,7 +22,8 @@ int main() {
 	  cout << "El resultado de 2*5*5+3*5+7 + "<< y[1]<< " es: "<< y[0] + y[1] << endl;
 	else
 		cout << "El numero ingresado es menor a 10, entonces su numero por defecto es: "<< y[0]<< endl;
-	cout << "\n\n\n\n\n" << "hi"; //crea varios saltos de línea para limpiar y separar la consola
+	cout << "\n\n\n\n\n" << "hi" << endl ; //crea varios saltos de línea para limpiar y separar la consola
+	cout << "Aquí comienza a imprimir nuevamente";
 
 	return 0;
 }
