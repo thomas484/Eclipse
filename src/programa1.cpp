@@ -27,7 +27,7 @@ int main() {
 	cout << "Aquí comienza a imprimir  nuevamente"<< endl;
 	cout << "Ingrese cualquier caracter de un solo digito: ";
 	cin >> a;
-	cout << "El equivalente a un entero del caracter es: "<< static_cast<int>(a) << endl;
+	cout << "El equivalente a un entero del caracter es: "<< static_cast<int>(a) << endl; //usa un cast de char a entero
 
 	return 0;
 }
